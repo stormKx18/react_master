@@ -59,3 +59,23 @@ const tahoe = [...peaks, ...canyons];
 const lakes = ["Donner", "Marlette", "Fallen Leaf", "Cascade"];
 const [first, ...others] = lakes;
 console.log(others.join(", ")); // Marlette, Fallen Leaf, Cascade
+
+//Fetch
+fetch("https://api.randomuser.me/?nat=US&results=1")
+.then(res => res.json())
+.then(json => json.results)
+.then(console.log)
+.catch(console.error);
+
+
+//Async
+const getFakePerson = async () => {
+    try {
+    let res = await fetch("https://api.randomuser.me/?nat=US&results=1");
+    let { results } = res.json();
+    console.log(results);
+    } catch (error) {
+    console.error(error);
+    }
+    };
+getFakePerson();
