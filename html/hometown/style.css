@@ -1,11 +1,29 @@
+body{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.main-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+
 #hero-div{
     background-color: beige;
+    height: 34%;
 }
 
 #act-div{
     background-color: palegoldenrod;
+    height: 33%;
 }
 
 #card-div{
     background-color: lightsalmon;
+    height: 33%;
 }
