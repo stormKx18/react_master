@@ -12,7 +12,6 @@ body{
 
 .main-content > div {
     flex: 1;
-    border: 1px dotted blue;
 }
 
 #hero-div{
@@ -57,4 +56,20 @@ body{
 #act-div{
     background-color: #F1FAEE;
     color: #1D3557;
+}
+
+.cards-img{
+    border-radius: 50%;
+    width: 120px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px;
+}
+
+.act-card{
+    margin:10px;
+    width: 30%;
 }
