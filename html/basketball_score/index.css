@@ -24,10 +24,25 @@ body {
     justify-content: center;
     background-color: #080001;
     color: #F94F6D;
-    font-size: 60px;
-    margin-top: 0;
+    font-size: 75px;
+    margin: 0 0 25px 0;
     padding: 20px 20px 10px 10px;
     width: 150px;
     height: 150px;
     font-family: LCD;
+}
+
+.buttons{
+    margin: 0;
+}
+
+.score-btn{
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    background-color: #1B244A;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-family: LCD;
+    border-radius: 7px;
 }
