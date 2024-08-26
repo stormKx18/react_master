@@ -1,0 +1,18 @@
+@font-face {
+    font-family: LCD;
+    src: url("lcd.14.otf");
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: LCD;
+}
