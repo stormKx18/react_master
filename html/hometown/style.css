@@ -31,6 +31,8 @@ body{
     /* Prevent the background image from repeating */
     background-repeat: no-repeat;
 
+    border-bottom: 1px solid black;
+
 }
 
 .hero-title{
