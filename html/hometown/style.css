@@ -21,6 +21,16 @@ body{
     justify-content: center;
     color: white;
     font-weight: bold;
+    background-image: url("images/torshov-image.png");
+    /* Ensure the background image covers the entire div */
+    background-size: cover;
+    
+    /* Center the background image */
+    background-position: center;
+    
+    /* Prevent the background image from repeating */
+    background-repeat: no-repeat;
+
 }
 
 .hero-title{
@@ -40,4 +50,5 @@ body{
     width: 37%;
     font-size: 18px;
     margin-top: 0;
+    text-shadow: 0 0 3px black;
 }
