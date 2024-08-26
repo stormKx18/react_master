@@ -1,6 +1,7 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 
 }
 .main-content{
@@ -51,4 +52,9 @@ body{
     font-size: 18px;
     margin-top: 0;
     text-shadow: 0 0 3px black;
+}
+
+#act-div{
+    background-color: #F1FAEE;
+    color: #1D3557;
 }
