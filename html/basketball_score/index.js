@@ -4,6 +4,8 @@ let scoreEl2= document.querySelector("#score-2");
 function newGame(){
     scoreEl1.textContent=0;
     scoreEl2.textContent=0;
+    scoreEl1.classList.remove("winner");
+    scoreEl2.classList.remove("winner");
 }
 
 function plus(team,addedPoints){
