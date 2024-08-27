@@ -32,6 +32,10 @@ body {
     font-family: LCD;
 }
 
+.winner{
+    color: gold;
+}
+
 .buttons{
     margin: 0;
 }

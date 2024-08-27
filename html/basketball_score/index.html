@@ -6,25 +6,25 @@
         <div class="container">
             <div>
                 <h1>HOME</h1>
-                <p class="scoreboard">100</p>
+                <p class="scoreboard" id="score-1">0</p>
                 <div class="buttons">
-                    <button class="score-btn">+1</button>
-                    <button class="score-btn">+2</button>
-                    <button class="score-btn">+3</button>
+                    <button class="score-btn" onclick="plus('home',1)">+1</button>
+                    <button class="score-btn" onclick="plus('home',2)">+2</button>
+                    <button class="score-btn" onclick="plus('home',3)">+3</button>
                 </div>
             </div>
             <div>
                 <h1>GUEST</h1>
-                <p class="scoreboard">0</p>
+                <p class="scoreboard" id="score-2">0</p>
                 <div class="buttons">
-                    <button class="score-btn">+1</button>
-                    <button class="score-btn">+2</button>
-                    <button class="score-btn">+3</button>
+                    <button class="score-btn" onclick="plus('guest',1)">+1</button>
+                    <button class="score-btn" onclick="plus('guest',2)">+2</button>
+                    <button class="score-btn" onclick="plus('guest',3)">+3</button>
                 </div>
             </div>
         </div>
         <div class="container2">
-            <button id="new-game-btn">New game</button>
+            <button id="new-game-btn" onclick="newGame()">New game</button>
         </div>
         <script src="index.js"></script>
     </body>
