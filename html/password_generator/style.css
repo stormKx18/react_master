@@ -1,0 +1,21 @@
+body{
+    background-color: #1F2937;
+    font-family: karla;
+}
+
+#text-1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#text-2{
+    color: #4ADF86;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#text-3{
+    color: white;
+    font-size: 20px;
+}
