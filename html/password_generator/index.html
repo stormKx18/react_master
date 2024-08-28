@@ -17,15 +17,15 @@
     <p id="text-1">Generate a</p>
     <p id="text-2">random password</p>
     <p id="text-3">Never use an insecure password again.</p>
-    <button id="pass-btn">Generate passwords</button>
+    <button id="pass-btn" onclick="generatePasswords(15)">Generate passwords</button>
     <hr />
     <div id="result">
       <div class="password" onclick="copyText(1)">
-        <p>pass1pass1pass1</p>
+        <p id="pass1"></p>
         <p>&#x2398;</p>
       </div>
       <div class="password" onclick="copyText(2)">
-        <p>pass2pass2pass2</p>
+        <p id="pass2"></p>
         <p>&#x2398;</p>
       </div>
     </div>
