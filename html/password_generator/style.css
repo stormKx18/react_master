@@ -1,21 +1,52 @@
 body{
     background-color: #1F2937;
     font-family: karla;
+    margin: 80px 0 0 80px;
+    max-width: 550px;
 }
 
 #text-1{
     color: white;
     font-weight: bold;
     font-size: 50px;
+    margin: 0;
 }
 
 #text-2{
     color: #4ADF86;
     font-weight: bold;
     font-size: 50px;
+    margin: 0;
 }
 
 #text-3{
     color: white;
     font-size: 20px;
+    margin: 0 0 60px 0;
+}
+
+#pass-btn{
+    color: white;
+    background-color: #10B981;
+    border: none;
+    font-size: 20px;
+    padding: 12px 20px;
+    text-shadow: 0 0 3px black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#result{
+    display: flex;
+    justify-content: space-between;
+}
+
+.password{
+    background-color: #273549;
+    color: #55F991;
+    margin: 20px 0px;
+    width: 240px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
 }
