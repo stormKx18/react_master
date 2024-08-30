@@ -53,3 +53,18 @@ body {
   cursor: pointer;
   margin-top: 40px;
 }
+
+.card {
+  background-color: #273549;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 20px;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.card-title {
+  color: #ccc1ff;
+  font-size: 25px;
+  font-weight: bold;
+}
