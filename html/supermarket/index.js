@@ -24,7 +24,7 @@ function render(leads) {
   let listItems = "";
   for (let key in leads) {
     listItems += `
-            <li class="super-li" data-key="${key}">
+            <li class="super-li no-select" data-key="${key}">
                     ${leads[key]}
             </li>
         `;
