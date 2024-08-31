@@ -22,22 +22,33 @@ const deleteBtn = document.getElementById("delete-btn");
 
 function render(leads) {
   let listItems = "";
-  for (let i = 0; i < leads.length; i++) {
+  for (let key in leads) {
     listItems += `
-            <li class="super-li">
-                    ${leads[i]}
+            <li class="super-li" data-key="${key}">
+                    ${leads[key]}
             </li>
         `;
   }
   ulEl.innerHTML = listItems;
+
+  // Add double-click event listener to each list item
+  const listElements = document.querySelectorAll(".super-li");
+  listElements.forEach((li) => {
+    li.addEventListener("dblclick", function () {
+      const key = li.getAttribute("data-key");
+      const itemRef = ref(database, `leads/${key}`);
+      remove(itemRef);
+    });
+  });
 }
 
 onValue(referenceInDB, function (snapshot) {
   const snapshotDoesExist = snapshot.exists();
   if (snapshotDoesExist) {
     const snapshotValues = snapshot.val();
-    const leads = Object.values(snapshotValues);
-    render(leads);
+    render(snapshotValues);
+  } else {
+    ulEl.innerHTML = "";
   }
 });
 
