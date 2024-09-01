@@ -57,7 +57,15 @@ deleteBtn.addEventListener("dblclick", function () {
   ulEl.innerHTML = "";
 });
 
+//Input btn
 inputBtn.addEventListener("click", function () {
   push(referenceInDB, inputEl.value);
   inputEl.value = "";
+});
+
+inputEl.addEventListener("keyup", ({ key }) => {
+  if (key === "Enter") {
+    push(referenceInDB, inputEl.value);
+    inputEl.value = "";
+  }
 });
