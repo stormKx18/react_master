@@ -35,7 +35,16 @@ function App() {
 
 export default App;
 */
+import Photo from "./components/Photo.jsx";
+import Name from "./components/Name.jsx";
+import Buttons from "./components/Buttons.jsx";
 
 export default function App() {
-  return <h1>Business Card</h1>;
+  return (
+    <>
+      <Photo />
+      <Name />
+      <Buttons />
+    </>
+  );
 }
