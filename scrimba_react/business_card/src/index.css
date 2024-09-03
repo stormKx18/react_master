@@ -63,3 +63,39 @@ footer > a {
   font-size: 20px;
   margin: 0;
 }
+
+#email-btn {
+  background-color: #ffffff;
+  padding: 10px 25px;
+  font-family: inter, sans-serif;
+  border-radius: 10px;
+  font-size: 17px;
+  margin: 10px 5px;
+  border: none;
+}
+
+#email-btn > img {
+  margin-right: 5px;
+}
+
+#linkedin-btn {
+  background-color: #5093e2;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: inter, sans-serif;
+  border-radius: 10px;
+  font-size: 17px;
+  margin: 10px 5px;
+  height: 40px;
+  border: none;
+}
+
+#linkedin-btn > img {
+  margin-right: 5px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
