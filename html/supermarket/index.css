@@ -6,6 +6,9 @@ body {
   max-width: 302px;
   background-color: #1f2937;
   height: 99%;
+  background-image: url("food.png");
+  background-size: contain;
+  background-blend-mode: luminosity;
 }
 
 body {
