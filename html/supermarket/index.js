@@ -59,12 +59,18 @@ deleteBtn.addEventListener("dblclick", function () {
 
 //Input btn
 inputBtn.addEventListener("click", function () {
+  if (inputEl.value == null || inputEl.value.trim() === "") {
+    return;
+  }
   push(referenceInDB, inputEl.value);
   inputEl.value = "";
 });
 
 inputEl.addEventListener("keyup", ({ key }) => {
   if (key === "Enter") {
+    if (inputEl.value == null || inputEl.value.trim() === "") {
+      return;
+    }
     push(referenceInDB, inputEl.value);
     inputEl.value = "";
   }
