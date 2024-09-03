@@ -38,19 +38,17 @@ export default App;
 import Photo from "./components/Photo.jsx";
 import Name from "./components/Name.jsx";
 import Buttons from "./components/Buttons.jsx";
-import About from "./components/About.jsx";
-import Interests from "./components/Interests.jsx";
+import Main from "./components/Main.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
-    <>
+    <div className="container">
       <Photo />
       <Name />
       <Buttons />
-      <About />
-      <Interests />
+      <Main />
       <Footer />
-    </>
+    </div>
   );
 }

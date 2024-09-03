@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #23252c;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 100%;
+  width: 350px;
+  background-color: #1a1b21;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.main {
+  border: 3px dotted aqua;
+  flex: 1;
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > a {
+  margin: 0 10px;
+}
+
+.photo {
+  text-align: center;
+}
+
+.photo > img {
+  border-radius: 10px;
+  width: 350px;
+}
