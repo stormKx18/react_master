@@ -1,7 +1,11 @@
 export default function Name() {
   return (
-    <div>
-      <h1>Victor Christian Jaime Tamayo</h1>
+    <div className="name-div">
+      <p className="name-user">
+        Victor Christian <br />
+        Jaime Tamayo
+      </p>
+      <p className="name-occupation">Full Stack Developer</p>
     </div>
   );
 }

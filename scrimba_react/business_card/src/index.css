@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   height: 100%;
   background-color: #23252c;
+  font-family: inter, sans-serif;
 }
 
 #root {
@@ -45,4 +46,20 @@ footer > a {
 .photo > img {
   border-radius: 10px;
   width: 350px;
+}
+
+.name-div {
+  text-align: center;
+}
+
+.name-user {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 25px;
+}
+
+.name-occupation {
+  color: #f3bf99;
+  font-size: 20px;
+  margin: 0;
 }
